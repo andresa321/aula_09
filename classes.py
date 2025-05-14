@@ -1,4 +1,5 @@
-from biblioteca import Pessoa
-aluno1 = Pessoa("luiza",47,19)
+from biblioteca import *
 
-print(aluno1.apresentar(),aluno1.acordar())
+valor = 15.00
+cinema = Ingresso(valor)
+cinema.imprimirvalor()
